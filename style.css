@@ -1,0 +1,126 @@
+*{
+    margin : 0;
+    padding :0;
+    box-sizing: border-box;
+}
+.container{
+    max-width : 1368px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.home{
+    
+    background: url('facewash-women.png') center/cover no-repeat;
+    height : 100vh;
+}
+.home img{
+    display: none;
+}
+.product{
+    padding-bottom : 40px;
+    padding-top : 40px;
+}
+.product h4{
+    text-align: center;
+    font-size : 30px;
+    font-weight : 500;
+    padding-bottom : 30px;
+    color : brown;
+}
+.work{
+    background-color : rgb(235, 92, 139);
+    color : white;
+    padding-left : 20px;
+    font-weight : 500;
+    padding-bottom : 40px;
+}
+
+.col-sm-2 img{
+    margin-right : 10px;
+}
+.col-sm-2 h5{
+    text-align : center;
+}
+.col-sm-5 img{
+    padding-top : 30px;
+    width : 100%;
+}
+.col-sm-7{
+    padding-top: 30px;
+}
+.col-sm-7 h4{
+    color : white;
+}
+.top{
+    padding-top : 30px;
+    padding-bottom : 50px;
+
+}
+.top h4{
+    text-align: center;
+}
+.top .col-sm-3 img{
+    width : 100px;
+    height : 100px;
+    border-radius: 50%;
+    font-size : 8px;
+}
+.top .col-sm-4 img{
+    margin-top : 100px;
+    width : 300px;
+    height : 70%;
+}
+.have{
+    text-align: center;
+    padding-top: 40px;
+    background-color :rgb(235, 92, 139);
+    color : white;
+    font-weight : 500;
+    padding-bottom : 40px;
+}
+.shop{
+    padding-top : 50px;
+    padding-bottom : 60px;
+}
+
+.shop h5{
+    font-size : 30px;
+    color :rgb(235, 92, 139);
+    font-weight : bolder;
+}
+.testimonial{
+    text-align: center;
+    color : white;
+    background-color: rgb(235, 92, 139);
+}
+.testimonial h4{
+    color : white;
+}
+.testimonial img{
+    width : 100px;
+    height : 100px;
+    border-radius: 50%;
+}
+.testimonial p{
+    font-size: 13px;
+}
+.bottom{
+    background-color : black;
+    padding-top : 20px;
+    padding-bottom : 20px;
+    color : rgb(122, 118, 118);
+}
+.bottom span{
+    color : orangered;
+}
+ul li i{
+    font-size : 20px;
+}
+ul li{
+    display : inline-block;
+    padding-right : 10px;
+
+}
